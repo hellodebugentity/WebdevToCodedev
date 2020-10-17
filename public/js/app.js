@@ -28,11 +28,12 @@
 
 
     for (var i = 0; i < 6; i++) {
-        topic[i].onclick = handlePopup(i);
+        topic[i].onclick = handlePopup;
     }
 
-    function handlePopup(e) {
-        console.log(e);
+    function handlePopup() {
+        console.log(this);
     }
+
 
 })();
