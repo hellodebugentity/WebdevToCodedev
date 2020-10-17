@@ -54,6 +54,7 @@ body {
     font-weight: normal;
     line-height: 1.5;
     height: 100vh;
+    overflow: hidden;
 }
 
 main {
@@ -84,6 +85,14 @@ main {
 
 
 
+}
+
+.heading {
+    width: 500px;
+}
+
+.heading p {
+    font-size: 17px;
 }
 
 /* Dice */
@@ -149,10 +158,8 @@ main {
     position: absolute;
     width: 200px;
     height: 200px;
-    border: 1px solid rgb(93, 38, 193);
-
+    border: 1px solid #fff;
     margin: 0 auto;
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 500%;
     text-align: center;
@@ -160,14 +167,26 @@ main {
 }
 
 .dot {
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border-radius: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.dot img {
+    width: 100px;
+    height: 100px;
+}
+
+.dot p {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+/* 
 .front .dot1 {
     top: 85px;
     left: 85px;
@@ -271,4 +290,4 @@ main {
 .bottom .dot6 {
     top: 125px;
     left: 125px;
-}
+} */
