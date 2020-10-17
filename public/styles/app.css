@@ -144,7 +144,7 @@ main {
 
 #cube div {
 
-    background: rgba(93, 38, 193, 0.85);
+    background: rgba(255, 255, 255, 0.3);
     display: block;
     position: absolute;
     width: 200px;
