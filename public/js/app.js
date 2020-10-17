@@ -11,7 +11,7 @@
     var min = 1;
     var max = 24;
 
-    cube.onclick = function () {
+    cube.onclick = () => {
         var xRand = getRandom(max, min);
         var yRand = getRandom(max, min);
 
@@ -21,6 +21,18 @@
 
     function getRandom(max, min) {
         return (Math.floor(Math.random() * (max - min)) + min) * 90;
+    }
+
+
+    var topic = d.querySelectorAll('.dot');
+
+
+    for (var i = 0; i < 6; i++) {
+        topic[i].onclick = handlePopup(i);
+    }
+
+    function handlePopup(e) {
+        console.log(e);
     }
 
 })();
