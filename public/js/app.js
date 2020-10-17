@@ -1,4 +1,5 @@
 (function () {
+    "use strict";
 
     var d = document,
         $ = e => d.querySelector(e);
