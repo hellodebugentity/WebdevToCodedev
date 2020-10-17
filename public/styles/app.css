@@ -59,9 +59,30 @@ body {
 main {
     width: 100vw;
     height: 100vh;
-    background: #c2e59c;
+    /* background: #c2e59c;
     background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
-    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    background: linear-gradient(to right, #64b3f4, #c2e59c); */
+    /* background: #ee9ca7; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #ffdde1, #ee9ca7); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #4776E6; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #8E54E9, #4776E6); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #8E54E9, #4776E6); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #C9D6FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 
 }
 
@@ -113,8 +134,8 @@ main {
     position: absolute;
 
     transform-style: preserve-3d;
-
     transition: transform 6s;
+
 }
 
 #cube:hover {
@@ -122,18 +143,13 @@ main {
 }
 
 #cube div {
-    background: #FFB75E;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ED8F03, #FFB75E);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    background: rgba(93, 38, 193, 0.85);
     display: block;
     position: absolute;
     width: 200px;
     height: 200px;
-    border: 2px solid #FFB75E;
+    border: 1px solid rgb(93, 38, 193);
 
     margin: 0 auto;
 
